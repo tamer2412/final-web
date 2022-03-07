@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Crypto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c75b4df6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="second.css">
+    <link rel="stylesheet" href="css.css">
+    <script src="contact.js"></script>
+    <link rel="stylesheet" href="fm.revealator.jquery.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="fm.revealator.jquery.js"></script>
+    <link rel="icon" type="image/x-icon" href="IMG/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="toppp">
+      <div id="id01" class="modal">
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="register-block">
+            <p class="login-button" id="reg-hide">Sign up</p>
+           <div class="input-block" id="input-block-register">
+                   <input type="text" name="name_lastname" id="name_lastname_reg" placeholder="Username" required />
+                   <input type="password" class="register_inp" name="password_reg" id="password_reg" placeholder="Password" required>
+                   <input type="password" class="register_inp" name="password_duplicate_reg" id="password_dup_reg" placeholder="Confirm password">
+                   <input type="hidden" id="input-from-bot-reg">
+                   <button id="register_but">Sign up</button>
+           </div>
+           <p class="hidden-error-block"></p>
+       </div>
+        </form>
+      </div>
+    <div class="topnav">
+        <a  href="index.html">Home<i class="fa-solid fa-house" style="margin-left: 5px;"></i></a>
+        <a  href="second.html">About<i class="fa-solid fa-user-group" style="margin-left: 5px;"></i></a>
+        <a class="active" href="contact.html">Contact<i class="fa-solid fa-phone" style="margin-left: 5px;"></i></a>
+        <button id="dark_mode" onclick="darkMode()">Dark-Mode<i class="fa-solid fa-circle-half-stroke" style="margin-left: 5px;"></i></button>
+        <button id="dark_mode"onclick="lightMode()">Light-Mode<i class="fa-solid fa-circle-half-stroke" style="margin-left: 5px;"></i></button>
+        <div class="login-container">
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login<i class="fa-solid fa-user" style="margin-left: 5px;"></i></button>
+        </div>
+    </div>
+    </div>
+
+    <br>
+    <div class="textinfo" data-aos="flip-right">
+        <h5>Top 5 Cryptography Blogs & Websites:</h5>
+      <div class="table">
+        <table>
+      <tr>
+        <th>Name of Blog & Website</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td>IACR</td>
+        <td>
+          <a href="https://iacr.org/">iacr.org</a>
+        </td>
+      </tr>
+      <tr>
+        <td>CRYPTOMAThIC.</td>
+        <td>
+        <a href="https://www.cryptomathic.com/">cryptomathic.com</a>
+      </td>
+      </tr>
+      <tr>
+        <td>AWS Security </td>
+        <td>
+        <a href="https://aws.amazon.com/ru/blogs/security/tag/encryption/">amazon</a>
+      </td>
+      </tr><tr>
+        <td>ScienceDaily</td>
+        <td>
+        <a href="https://www.sciencedaily.com/news/computers_math/encryption/">sciencedaily</a>
+      </td>
+      </tr>
+      <tr>
+        <td>Naked Security</td>
+        <td>
+        <a href="https://nakedsecurity.sophos.com/category/cryptography/">nakedsecurity</a>
+      </td>
+      </tr>
+      </table>
+      </div>
+    </div>
+    <br>
+    <div class="knopka">
+      <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">Give us 80 points</button>
+    </div>
+
+
+    <div class="footer container">
+      <footer class="py-5">
+          <p class="text-center text-muted border-bottom pb-3 mb-3">
+              Project by Tamerlan A., Konstantin M., Akzhol B.
+          </p>
+      </footer>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="second.js"></script>
+    <script src="contact.js"></script>
+    <script src="js.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="night.js"></script>
+  </body>
+</html>

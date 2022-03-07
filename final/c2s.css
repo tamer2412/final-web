@@ -1,0 +1,54 @@
+body {font-family: 'Outfit', sans-serif;}
+.text1{
+    margin: 1em auto 3em;
+    font-size: 35px;
+    text-align: center;
+    background: url(IMG/123.png);
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: fade 10s infinite linear;
+}
+.photot{
+    animation: pho;
+}
+.topnav a{
+    font-family: 'Outfit', sans-serif;
+}
+@keyframes pho{
+    from{
+        border-radius: 0;
+    }
+    to{
+        border-radius: 100%;
+    }
+}
+@keyframes fade{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}
+.photo{
+    margin: 2px 1em 0 30px;
+    height: 250px;
+    width: 175px;
+}
+.prikol{
+    
+    margin: 2px 1em 0 30px;
+    text-align: center;
+}
+.shortguide{
+    text-align: center;
+}
+.concl{
+    margin: 5em;
+}
+.heheheha{
+    margin-left: 350px;
+    margin-right: auto;
+    height: 200px;
+    width: 150px;
+}
